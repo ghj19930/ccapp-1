@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import '../../styles/common/config/public';
+#login-page{
+  width:100%;
+  //min-width: 640px;
+  background-color: #fff;
+  .login-logo{
+    width:100%;
+    height:12.5rem;
+    padding-top: 5.625rem;
+    box-sizing: border-box;
+    background: url(../../assets/login-bg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-bottom: 2.18rem;
+    text-align: center;
+    img{
+      .w(128);
+      .h(128);
+    }
+    p{
+      height:2.8rem;
+      color: #444;
+      .fs(46);
+      line-height: 2.8rem;
+
+    }
+  }
+  .login{
+    padding:0 1rem;
+    .input-item{
+      position:relative;
+    }
+    .input{
+      display: block;
+      .h(99);
+      width:100%;
+      border-bottom: 1px solid #dfdee4;
+      .pl(80);
+      color: #333;
+      .fs(30);
+    }
+    .button{
+      width:100%;
+      height:2.8rem;
+      background-color: #508cee;
+      color: #fff;
+      text-align: center;
+      line-height: 2.8rem;
+      .fs(36);
+      border-radius:4px;
+    }
+    .phone-icon,
+    .pwd-icon{
+      position: absolute;
+      top:50%;
+      .mt(-20);
+      display:block;
+      .w(40);
+      .h(40);
+      .l(7);
+      background-repeat:no-repeat;
+      background-position:center center;
+      background-size:cover;
+    }
+    .phone-icon{
+       background-image:url(../../assets/iphone.png);
+    }
+    .pwd-icon{
+      background-image: url(../../assets/password.png);
+    }
+    .mb{
+      .mb(120);
+    }
+  }
+}

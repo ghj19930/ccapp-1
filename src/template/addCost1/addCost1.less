@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import '../../styles/common/config/public';
+.main{
+  background-color: #f8f8f8;
+  height:100%;
+}
+header{
+  background-color: #fff;
+  .pt(40);
+  .pl(30);
+  .pr(30);
+  border-bottom: 1px solid #508cee;
+  .h(127);
+  position: relative;
+  .mb(30);
+  img{
+    .w(25);
+    .h(28);
+    position: absolute;
+    left: 0.9375rem;
+    top:2.1875rem;
+  }
+  h2{
+    text-align: center;
+    .fs(36);
+    color: #508cee;
+    line-height: 2.75rem;
+  }
+}
+.add{
+  background-color: #fff;
+  border-top: 1px solid #dfdee4;
+  border-bottom: 1px solid #dfdee4;
+  .pl(30);
+  li{
+    .pt(21);
+    .pb(21);
+    .pr(30);
+    border-bottom: 1px solid #dfdee4;
+    position: relative;
+    div{
+      position: absolute;
+      top:0.656rem;
+      left:0;
+      overflow: hidden;
+      img{
+        .w(46);
+        .h(46);
+        .mr(20);
+        float: left;
+      }
+      span{
+        .fs(32);
+        color: #508cee;
+        line-height: 1.4375rem;
+        float: left;
+      }
+    }
+    p{
+      color: #444;
+      .fs(28);
+    }
+    .type{
+      height:1.375rem;
+      text-align: center;
+      line-height: 1.375rem;
+    }
+    .dollar{
+      position: absolute;
+      top:0.656rem;
+      right:0.9375rem;
+      .pr(34);
+      line-height: 1.375rem;
+      background: url(../../assets/arrows.png) no-repeat right center;
+      background-size: 0.5625rem 0.8125rem;
+    }
+  }
+  li:last-child{
+    border-bottom: none;
+  }
+}
+.amount{
+  .h(42);
+  line-height: 1.3125rem;
+  color: #777;
+  .fs(28);
+  .pl(30);
+  .mb(58);
+}
+.borrow{
+  .mb(30);
+  position: relative;
+  p{
+    .h(88);
+    border-top: 1px solid #dfdee4;
+    border-bottom: 1px solid #dfdee4;
+    background-color: #fff;
+    .pl(30);
+    line-height: 2.75rem;
+    .fs(32);
+    color: #444;
+  }
+  img{
+    position: absolute;
+    right:0.9375rem;
+    top:50%;
+    .mt(-40);
+    .w(111);
+    .h(80);
+  }
+  .photo{
+    .mt(-25);
+    .w(50);
+    .h(50);
+  }
+}
+.btn{
+  .mt(20);
+  .pl(30);
+  input{
+    .fs(36);
+    float: left;
+    width:46%;
+  }
+  .save{
+    .h(86);
+    border:2px solid #508cee;
+    background-color: #f8f8f8;
+    .border-radius(4);
+    color: #508cee;
+    .mr(34)
+  }
+  .submit{
+    .h(90);
+    background-color: #518dee;
+    color: #fff;
+    .border-radius(4);
+  }
+}
